@@ -10,6 +10,10 @@ export default defineConfig({
 		starlight({
 			title: 'Aishwarya Weds Sahil ❤️',
 			description: 'Aishwarya & Sahil are getting married!',
+			social: {
+				github: 'https://github.com/sahilarora535/aishwarya-weds-sahil',
+				email: 'mailto:aishwarya.weds@sahilarora.in',
+			},
 			sidebar: [],
 			customCss: ['./src/tailwind.css',
 				'@fontsource/atma/400.css',

@@ -34,7 +34,6 @@ export default defineConfig({
 				github: 'https://github.com/sahilarora535/aishwarya-weds-sahil',
 				email: 'mailto:aishwarya.weds@sahilarora.in',
 			},
-			sidebar: [],
 			customCss: ['./src/tailwind.css',
 				'@fontsource/atma/400.css',
 				'@fontsource/atma/500.css',

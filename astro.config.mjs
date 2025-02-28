@@ -18,19 +18,17 @@ export default defineConfig({
 		starlight({
 			title: 'Aishwarya Weds Sahil ❤️',
 			description: 'Aishwarya & Sahil are getting married!',
-			favicon: '/src/assets/logo.png',
+			favicon: '/favicon.png',
 			logo: {
-				src: '/public/favicon.png',
+				src: '/src/assets/logo.png',
 			},
 			head: [{
 				tag: 'script',
-				content: `
-				(function(c,l,a,r,i,t,y){
-					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-					t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-					y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-				})(window, document, "clarity", "script", "qgzywq6kv3");
-				`,
+				attrs: {
+					src: 'https://cloud.umami.is/script.js',
+					'data-website-id': "439d83d7-0f48-4666-b189-bf1605056e45",
+					defer: true,
+				}
 			}],
 			social: {
 				github: 'https://github.com/sahilarora535/aishwarya-weds-sahil',

@@ -20,7 +20,7 @@ export default defineConfig({
 			description: 'Aishwarya & Sahil are getting married!',
 			favicon: '/src/assets/logo.png',
 			logo: {
-				src: '/src/assets/logo.png'
+				src: '/public/favicon.png',
 			},
 			head: [{
 				tag: 'script',

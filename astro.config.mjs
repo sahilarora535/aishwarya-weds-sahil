@@ -10,6 +10,10 @@ export default defineConfig({
 		starlight({
 			title: 'Aishwarya Weds Sahil ❤️',
 			description: 'Aishwarya & Sahil are getting married!',
+			favicon: '/src/assets/logo.png',
+			logo: {
+				src: '/src/assets/logo.png'
+			},
 			head: [{
 				tag: 'script',
 				content: `

@@ -22,6 +22,10 @@ export default defineConfig({
 			logo: {
 				src: '/src/assets/logo.png',
 			},
+			tableOfContents: {
+				minHeadingLevel: 2,
+				maxHeadingLevel: 5,
+			},
 			head: [{
 				tag: 'script',
 				attrs: {

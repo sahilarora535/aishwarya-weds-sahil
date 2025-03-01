@@ -32,7 +32,7 @@ export default defineConfig({
 			}],
 			sidebar: [
 				{
-					label: 'Travel Guide',
+					label: 'Event Guide',
 					autogenerate: { directory: 'guide' },
 				},
 			],

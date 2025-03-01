@@ -30,6 +30,12 @@ export default defineConfig({
 					defer: true,
 				}
 			}],
+			sidebar: [
+				{
+					label: 'Travel Guide',
+					autogenerate: { directory: 'guide' },
+				},
+			],
 			social: {
 				github: 'https://github.com/sahilarora535/aishwarya-weds-sahil',
 				email: 'mailto:aishwarya.weds@sahilarora.in',

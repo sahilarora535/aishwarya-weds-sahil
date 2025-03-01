@@ -33,7 +33,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Event Guide',
-					autogenerate: { directory: 'guide' },
+					autogenerate: { directory: 'guides' },
 				},
 			],
 			social: {
